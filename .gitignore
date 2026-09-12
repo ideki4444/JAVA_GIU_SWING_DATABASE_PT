@@ -1,0 +1,33 @@
+```
+# Compiled Java classes
+*.class
+
+# Build artifacts
+bin/
+build/
+target/
+
+# Dependencies
+lib/
+libs/
+vendor/
+
+# IDE files
+.idea/
+.vscode/
+*.iml
+*.ipr
+*.iws
+
+# Logs
+*.log
+
+# Environment
+.env
+.env.local
+*.env.*
+
+# OS generated files
+.DS_Store
+Thumbs.db
+```
