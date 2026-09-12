@@ -1,0 +1,14 @@
+Put the real mysql-connector-j-9.7.0.jar file in this folder.
+
+Download it from Maven Central:
+https://repo1.maven.org/maven2/com/mysql/mysql-connector-j/9.7.0/mysql-connector-j-9.7.0.jar
+
+The project (nbproject/project.properties) now references it as:
+    lib/mysql-connector-j-9.7.0.jar
+relative to the GUI project folder, so it will work on any machine
+(the old setup pointed to an absolute path on one specific PC's
+Downloads folder, which is why it broke for anyone else who opened
+the project).
+
+Once the jar is in this folder, open the project in NetBeans and
+Clean & Build - it will compile and run without errors.
