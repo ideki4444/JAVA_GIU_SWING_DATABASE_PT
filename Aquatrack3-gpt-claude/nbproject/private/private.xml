@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/C:/Users/idefkicabti/Documents/NetBeansProjects/Aquatrack3-gpt-claude/src/aquatrack/ui/LoginAuthenticator.java</file>
+            <file>file:/C:/Users/idefkicabti/Documents/NetBeansProjects/Aquatrack3-gpt-claude/src/aquatrack/dao/ReportDao.java</file>
+            <file>file:/C:/Users/idefkicabti/Documents/NetBeansProjects/Aquatrack3-gpt-claude/src/aquatrack/dao/CustomerDao.java</file>
+            <file>file:/C:/Users/idefkicabti/Documents/NetBeansProjects/Aquatrack3-gpt-claude/src/aquatrack/ui/ReportsPanel.java</file>
+            <file>file:/C:/Users/idefkicabti/Documents/NetBeansProjects/Aquatrack3-gpt-claude/src/aquatrack/ui/DashboardPanel.java</file>
+            <file>file:/C:/Users/idefkicabti/Documents/NetBeansProjects/Aquatrack3-gpt-claude/src/aquatrack/ui/MainFrame.java</file>
+            <file>file:/C:/Users/idefkicabti/Documents/NetBeansProjects/Aquatrack3-gpt-claude/src/src/aquatrack/util/DeliveryRules.java</file>
+            <file>file:/C:/Users/idefkicabti/Documents/NetBeansProjects/Aquatrack3-gpt-claude/src/src/aquatrack/util/Fmt.java</file>
+            <file>file:/C:/Users/idefkicabti/Documents/NetBeansProjects/Aquatrack3-gpt-claude/src/aquatrack/model/Product.java</file>
+            <file>file:/C:/Users/idefkicabti/Documents/NetBeansProjects/Aquatrack3-gpt-claude/src/aquatrack/model/User.java</file>
+            <file>file:/C:/Users/idefkicabti/Documents/NetBeansProjects/Aquatrack3-gpt-claude/src/aquatrack/dao/DeliveryStaffDao.java</file>
+            <file>file:/C:/Users/idefkicabti/Documents/NetBeansProjects/Aquatrack3-gpt-claude/src/aquatrack/dao/LedgerDao.java</file>
+            <file>file:/C:/Users/idefkicabti/Documents/NetBeansProjects/Aquatrack3-gpt-claude/src/aquatrack/dao/ProductDao.java</file>
+            <file>file:/C:/Users/idefkicabti/Documents/NetBeansProjects/Aquatrack3-gpt-claude/src/aquatrack/dao/UserDao.java</file>
+            <file>file:/C:/Users/idefkicabti/Documents/NetBeansProjects/Aquatrack3-gpt-claude/src/aquatrack/db/Database.java</file>
+            <file>file:/C:/Users/idefkicabti/Documents/NetBeansProjects/Aquatrack3-gpt-claude/src/aquatrack/model/Customer.java</file>
+            <file>file:/C:/Users/idefkicabti/Documents/NetBeansProjects/Aquatrack3-gpt-claude/src/aquatrack/model/CustomerAccount.java</file>
+            <file>file:/C:/Users/idefkicabti/Documents/NetBeansProjects/Aquatrack3-gpt-claude/src/aquatrack/model/CustomerOrder.java</file>
+            <file>file:/C:/Users/idefkicabti/Documents/NetBeansProjects/Aquatrack3-gpt-claude/src/aquatrack/model/CustomerTotal.java</file>
+            <file>file:/C:/Users/idefkicabti/Documents/NetBeansProjects/Aquatrack3-gpt-claude/src/aquatrack/model/DeliveryStaff.java</file>
+            <file>file:/C:/Users/idefkicabti/Documents/NetBeansProjects/Aquatrack3-gpt-claude/src/aquatrack/model/OrderLine.java</file>
+            <file>file:/C:/Users/idefkicabti/Documents/NetBeansProjects/Aquatrack3-gpt-claude/src/aquatrack/ui/AccountsPanel.java</file>
+            <file>file:/C:/Users/idefkicabti/Documents/NetBeansProjects/Aquatrack3-gpt-claude/src/aquatrack/ui/CustomersPanel.java</file>
+            <file>file:/C:/Users/idefkicabti/Documents/NetBeansProjects/Aquatrack3-gpt-claude/src/aquatrack/ui/ContainersPanel.java</file>
+            <file>file:/C:/Users/idefkicabti/Documents/NetBeansProjects/Aquatrack3-gpt-claude/src/aquatrack/ui/DeliveriesPanel.java</file>
+            <file>file:/C:/Users/idefkicabti/Documents/NetBeansProjects/Aquatrack3-gpt-claude/src/aquatrack/ui/InventoryPanel.java</file>
+            <file>file:/C:/Users/idefkicabti/Documents/NetBeansProjects/Aquatrack3-gpt-claude/src/aquatrack/ui/OrderPanel.java</file>
+            <file>file:/C:/Users/idefkicabti/Documents/NetBeansProjects/Aquatrack3-gpt-claude/src/aquatrack/ui/ProductsPanel.java</file>
+            <file>file:/C:/Users/idefkicabti/Documents/NetBeansProjects/Aquatrack3-gpt-claude/src/aquatrack/ui/ReceiptDialog.java</file>
+            <file>file:/C:/Users/idefkicabti/Documents/NetBeansProjects/Aquatrack3-gpt-claude/src/aquatrack/ui/UiKit.java</file>
+            <file>file:/C:/Users/idefkicabti/Documents/NetBeansProjects/Aquatrack3-gpt-claude/src/aquatrack/Main.java</file>
+            <file>file:/C:/Users/idefkicabti/Documents/NetBeansProjects/Aquatrack3-gpt-claude/src/aquatrack/dao/OrderDao.java</file>
+        </group>
+    </open-files>
+</project-private>
