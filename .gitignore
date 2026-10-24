@@ -1,4 +1,3 @@
-```
 # Compiled and build artifacts
 *.class
 *.o
@@ -8,6 +7,13 @@
 *.so
 *.a
 *.out
+out/
+build/
+dist/
+sources.txt
+
+# NetBeans machine-specific settings
+nbproject/private/
 
 # Dependencies
 venv/
@@ -40,4 +46,3 @@ htmlcov/
 # System files
 .DS_Store
 Thumbs.db
-```
