@@ -125,12 +125,11 @@ public final class LoginFrame extends JFrame {
                     status.setText(result.getOutcome().getMessage());
                     if (result.getOutcome() != LoginAuthenticator.Outcome.SUCCESS) {
                         setLoginPending(false);
+                        clearRejectedCredentials(result.getOutcome(), usernameField, passwordField);
                     }
                     if (result.getOutcome() == LoginAuthenticator.Outcome.ACCOUNT_NOT_FOUND) {
                         usernameField.requestFocusInWindow();
-                        usernameField.selectAll();
                     } else if (result.getOutcome() == LoginAuthenticator.Outcome.INCORRECT_PASSWORD) {
-                        passwordField.setText("");
                         passwordField.requestFocusInWindow();
                     } else if (result.getOutcome() == LoginAuthenticator.Outcome.SUCCESS) {
                         UiKit.info(LoginFrame.this, result.getOutcome().getMessage());
@@ -151,6 +150,17 @@ public final class LoginFrame extends JFrame {
                 }
             }
         }.execute();
+    }
+
+    /** Clears rejected credentials so the next attempt starts with the appropriate fields. */
+    static void clearRejectedCredentials(LoginAuthenticator.Outcome outcome,
+                                         JTextField username, JPasswordField password) {
+        if (outcome == LoginAuthenticator.Outcome.ACCOUNT_NOT_FOUND) {
+            username.setText("");
+            password.setText("");
+        } else if (outcome == LoginAuthenticator.Outcome.INCORRECT_PASSWORD) {
+            password.setText("");
+        }
     }
 
     private void setLoginPending(boolean pending) {

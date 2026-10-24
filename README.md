@@ -211,6 +211,17 @@ AquaTrack is a desktop system for a water refilling station. Sign in with the ap
 
 Use the left sidebar to move between screens. Opening a screen refreshes its data; reopening it is useful after another workstation changes a record. **Log out** returns to the login window; **Exit** closes the application after confirmation. The main window requires at least 1000 × 660 pixels.
 
+### Sign-in validation
+
+| Entered credentials | Message | What happens next |
+| --- | --- | --- |
+| Username does not match an active account, regardless of the password | `Account doesn't exist` | Both fields are cleared; focus returns to Username. |
+| Username matches an active account, but its password is wrong | `Password is incorrect` | Only Password is cleared; Username is retained and focus returns to Password. |
+| Username and password match an active account | `Log-in Successfully` | The success message is shown and the main window opens. |
+| Either field is empty | `Enter both your username and password.` | Entered text is retained; complete the missing field and retry. |
+
+An unknown username and a completely incorrect username/password pair have the same result: there is no account against which to check that password, so both fields are cleared. AquaTrack checks the password only for the supplied username.
+
 ### Roles and access
 
 | Action | Staff | Owner/Admin |
@@ -476,6 +487,17 @@ flowchart LR
 - **Roles:** permissions are applied by the Swing interface. Users with direct database access can bypass those interface restrictions. Deploy only with database access appropriate to your environment.
 
 Build from source after changing Java files. Do not commit your database password, database dumps, or local `nbproject/private/` settings. No repository-wide license is declared; review the licenses of bundled third-party libraries before redistribution.
+
+### Run the login validation checks
+
+After compiling the application into `out` as described above, run these commands from `Aquatrack_version-3`:
+
+```sh
+javac --release 17 -encoding UTF-8 -cp out -d out test/aquatrack/ui/LoginValidationTest.java
+java -Djava.awt.headless=true -cp out aquatrack.ui.LoginValidationTest
+```
+
+The standalone check uses actual Swing text fields on the event dispatch thread and an in-memory account lookup. It checks exact messages, field clearing for both unknown-username cases, wrong-password retries, successful authentication, inactive accounts, incomplete input, and database-error propagation. No database or graphical display is needed. A successful run prints `PASS`.
 
 ## Other projects
 
