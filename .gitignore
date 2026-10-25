@@ -18,7 +18,6 @@ nbproject/private/
 # Dependencies
 venv/
 .venv/
-.venv-docs/
 __pycache__/
 .mypy_cache/
 .pytest_cache/
