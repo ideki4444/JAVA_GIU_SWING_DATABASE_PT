@@ -1,0 +1,84 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="1310" viewBox="0 0 1100 1310" role="img" aria-labelledby="title desc">
+<title id="title">From installation to a working day</title>
+<desc id="desc">Eight steps: install Java and MySQL; configure and compile; import schema and bootstrap first owner; prepare products, stock, customers and accounts; create a sale; print and deliver; collect payments and containers; review reports and back up the database.</desc>
+<defs><marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto" markerUnits="userSpaceOnUse"><path d="M 0 0 L 9 5 L 0 10 z" fill="#087F82"/></marker></defs>
+<rect width="1100" height="1310" fill="#F5F8FB"/>
+<rect width="1100" height="145" fill="#11283F"/>
+<text x="48" y="37" fill="#91DBD5" font-family="DejaVu Sans, Arial, sans-serif" font-size="20" font-weight="700" text-anchor="start">AQUATRACK  /  FIELD GUIDE 01</text>
+<text x="48" y="84" fill="#FFFFFF" font-family="DejaVu Sans, Arial, sans-serif" font-size="36" font-weight="700" text-anchor="start">From installation to a working day</text>
+<text x="48" y="120" fill="#D3E2EC" font-family="DejaVu Sans, Arial, sans-serif" font-size="24" font-weight="400" text-anchor="start">Follow the numbered path; the database holds the live business records.</text>
+<rect x="48" y="175" width="474" height="210" rx="18" fill="#FFFFFF" stroke="#CEDBE4" stroke-width="1.5"/>
+<rect x="72" y="194" width="43" height="40" rx="10" fill="#087F82" stroke="#087F82" stroke-width="1.5"/>
+<text x="93.5" y="222" fill="#FFFFFF" font-family="DejaVu Sans, Arial, sans-serif" font-size="24" font-weight="700" text-anchor="middle">1</text>
+<text x="130" y="223" fill="#11283F" font-family="DejaVu Sans, Arial, sans-serif" font-size="27" font-weight="700" text-anchor="start">Prepare the computer</text>
+<text x="72" y="260" fill="#203B50" font-family="DejaVu Sans, Arial, sans-serif" font-size="24" font-weight="400" text-anchor="start">JDK 17+ and a desktop session.</text>
+<text x="72" y="291" fill="#203B50" font-family="DejaVu Sans, Arial, sans-serif" font-size="24" font-weight="400" text-anchor="start">Start MySQL / MariaDB.</text>
+<text x="72" y="322" fill="#203B50" font-family="DejaVu Sans, Arial, sans-serif" font-size="24" font-weight="400" text-anchor="start">Get Aquatrack_version-3.</text>
+<rect x="578" y="175" width="474" height="210" rx="18" fill="#FFFFFF" stroke="#CEDBE4" stroke-width="1.5"/>
+<rect x="602" y="194" width="43" height="40" rx="10" fill="#087F82" stroke="#087F82" stroke-width="1.5"/>
+<text x="623.5" y="222" fill="#FFFFFF" font-family="DejaVu Sans, Arial, sans-serif" font-size="24" font-weight="700" text-anchor="middle">2</text>
+<text x="660" y="223" fill="#11283F" font-family="DejaVu Sans, Arial, sans-serif" font-size="27" font-weight="700" text-anchor="start">Configure and compile</text>
+<text x="602" y="260" fill="#203B50" font-family="DejaVu Sans, Arial, sans-serif" font-size="24" font-weight="400" text-anchor="start">Edit Database.java settings.</text>
+<text x="602" y="291" fill="#203B50" font-family="DejaVu Sans, Arial, sans-serif" font-size="24" font-weight="400" text-anchor="start">Build the Java source.</text>
+<text x="602" y="322" fill="#203B50" font-family="DejaVu Sans, Arial, sans-serif" font-size="24" font-weight="400" text-anchor="start">Keep the JDBC JAR available.</text>
+<rect x="578" y="405" width="474" height="210" rx="18" fill="#FFFFFF" stroke="#CEDBE4" stroke-width="1.5"/>
+<rect x="602" y="424" width="43" height="40" rx="10" fill="#087F82" stroke="#087F82" stroke-width="1.5"/>
+<text x="623.5" y="452" fill="#FFFFFF" font-family="DejaVu Sans, Arial, sans-serif" font-size="24" font-weight="700" text-anchor="middle">3</text>
+<text x="660" y="453" fill="#11283F" font-family="DejaVu Sans, Arial, sans-serif" font-size="27" font-weight="700" text-anchor="start">Create the first login</text>
+<text x="602" y="490" fill="#203B50" font-family="DejaVu Sans, Arial, sans-serif" font-size="24" font-weight="400" text-anchor="start">Import sql/schema.sql.</text>
+<text x="602" y="521" fill="#203B50" font-family="DejaVu Sans, Arial, sans-serif" font-size="24" font-weight="400" text-anchor="start">Hash your chosen password.</text>
+<text x="602" y="552" fill="#203B50" font-family="DejaVu Sans, Arial, sans-serif" font-size="24" font-weight="400" text-anchor="start">Run bootstrap-owner.sql.</text>
+<text x="602" y="583" fill="#203B50" font-family="DejaVu Sans, Arial, sans-serif" font-size="24" font-weight="400" text-anchor="start">There is no default app login.</text>
+<rect x="48" y="405" width="474" height="210" rx="18" fill="#FFFFFF" stroke="#CEDBE4" stroke-width="1.5"/>
+<rect x="72" y="424" width="43" height="40" rx="10" fill="#087F82" stroke="#087F82" stroke-width="1.5"/>
+<text x="93.5" y="452" fill="#FFFFFF" font-family="DejaVu Sans, Arial, sans-serif" font-size="24" font-weight="700" text-anchor="middle">4</text>
+<text x="130" y="453" fill="#11283F" font-family="DejaVu Sans, Arial, sans-serif" font-size="27" font-weight="700" text-anchor="start">Prepare business data</text>
+<text x="72" y="490" fill="#203B50" font-family="DejaVu Sans, Arial, sans-serif" font-size="24" font-weight="400" text-anchor="start">Owner: add products and prices.</text>
+<text x="72" y="521" fill="#203B50" font-family="DejaVu Sans, Arial, sans-serif" font-size="24" font-weight="400" text-anchor="start">Receive opening stock.</text>
+<text x="72" y="552" fill="#203B50" font-family="DejaVu Sans, Arial, sans-serif" font-size="24" font-weight="400" text-anchor="start">Add customers, riders, logins.</text>
+<rect x="48" y="635" width="474" height="210" rx="18" fill="#FFFFFF" stroke="#CEDBE4" stroke-width="1.5"/>
+<rect x="72" y="654" width="43" height="40" rx="10" fill="#087F82" stroke="#087F82" stroke-width="1.5"/>
+<text x="93.5" y="682" fill="#FFFFFF" font-family="DejaVu Sans, Arial, sans-serif" font-size="24" font-weight="700" text-anchor="middle">5</text>
+<text x="130" y="683" fill="#11283F" font-family="DejaVu Sans, Arial, sans-serif" font-size="27" font-weight="700" text-anchor="start">Build and save a sale</text>
+<text x="72" y="720" fill="#203B50" font-family="DejaVu Sans, Arial, sans-serif" font-size="24" font-weight="400" text-anchor="start">Choose customer and products.</text>
+<text x="72" y="751" fill="#203B50" font-family="DejaVu Sans, Arial, sans-serif" font-size="24" font-weight="400" text-anchor="start">Set Walk-in / Delivery and</text>
+<text x="72" y="782" fill="#203B50" font-family="DejaVu Sans, Arial, sans-serif" font-size="24" font-weight="400" text-anchor="start">Cash / Credit; enter gallons.</text>
+<text x="72" y="813" fill="#203B50" font-family="DejaVu Sans, Arial, sans-serif" font-size="24" font-weight="400" text-anchor="start">Review, then save the order.</text>
+<rect x="578" y="635" width="474" height="210" rx="18" fill="#FFFFFF" stroke="#CEDBE4" stroke-width="1.5"/>
+<rect x="602" y="654" width="43" height="40" rx="10" fill="#087F82" stroke="#087F82" stroke-width="1.5"/>
+<text x="623.5" y="682" fill="#FFFFFF" font-family="DejaVu Sans, Arial, sans-serif" font-size="24" font-weight="700" text-anchor="middle">6</text>
+<text x="660" y="683" fill="#11283F" font-family="DejaVu Sans, Arial, sans-serif" font-size="27" font-weight="700" text-anchor="start">Print and dispatch</text>
+<text x="602" y="720" fill="#203B50" font-family="DejaVu Sans, Arial, sans-serif" font-size="24" font-weight="400" text-anchor="start">The sale saves before printing.</text>
+<text x="602" y="751" fill="#203B50" font-family="DejaVu Sans, Arial, sans-serif" font-size="24" font-weight="400" text-anchor="start">For delivery: assign rider,</text>
+<text x="602" y="782" fill="#203B50" font-family="DejaVu Sans, Arial, sans-serif" font-size="24" font-weight="400" text-anchor="start">Out for delivery, then</text>
+<text x="602" y="813" fill="#203B50" font-family="DejaVu Sans, Arial, sans-serif" font-size="24" font-weight="400" text-anchor="start">Mark delivered.</text>
+<rect x="578" y="865" width="474" height="210" rx="18" fill="#FFFFFF" stroke="#CEDBE4" stroke-width="1.5"/>
+<rect x="602" y="884" width="43" height="40" rx="10" fill="#087F82" stroke="#087F82" stroke-width="1.5"/>
+<text x="623.5" y="912" fill="#FFFFFF" font-family="DejaVu Sans, Arial, sans-serif" font-size="24" font-weight="700" text-anchor="middle">7</text>
+<text x="660" y="913" fill="#11283F" font-family="DejaVu Sans, Arial, sans-serif" font-size="27" font-weight="700" text-anchor="start">Collect and return</text>
+<text x="602" y="950" fill="#203B50" font-family="DejaVu Sans, Arial, sans-serif" font-size="24" font-weight="400" text-anchor="start">Containers &amp; Balances:</text>
+<text x="602" y="981" fill="#203B50" font-family="DejaVu Sans, Arial, sans-serif" font-size="24" font-weight="400" text-anchor="start">record credit payments and</text>
+<text x="602" y="1012" fill="#203B50" font-family="DejaVu Sans, Arial, sans-serif" font-size="24" font-weight="400" text-anchor="start">gallons borrowed or returned.</text>
+<text x="602" y="1043" fill="#203B50" font-family="DejaVu Sans, Arial, sans-serif" font-size="24" font-weight="400" text-anchor="start">Check each updated balance.</text>
+<rect x="48" y="865" width="474" height="210" rx="18" fill="#FFFFFF" stroke="#CEDBE4" stroke-width="1.5"/>
+<rect x="72" y="884" width="43" height="40" rx="10" fill="#087F82" stroke="#087F82" stroke-width="1.5"/>
+<text x="93.5" y="912" fill="#FFFFFF" font-family="DejaVu Sans, Arial, sans-serif" font-size="24" font-weight="700" text-anchor="middle">8</text>
+<text x="130" y="913" fill="#11283F" font-family="DejaVu Sans, Arial, sans-serif" font-size="27" font-weight="700" text-anchor="start">Review and preserve</text>
+<text x="72" y="950" fill="#203B50" font-family="DejaVu Sans, Arial, sans-serif" font-size="24" font-weight="400" text-anchor="start">Owner: review Reports.</text>
+<text x="72" y="981" fill="#203B50" font-family="DejaVu Sans, Arial, sans-serif" font-size="24" font-weight="400" text-anchor="start">Compare sales, debts and stock.</text>
+<text x="72" y="1012" fill="#203B50" font-family="DejaVu Sans, Arial, sans-serif" font-size="24" font-weight="400" text-anchor="start">Back up MySQL separately</text>
+<text x="72" y="1043" fill="#203B50" font-family="DejaVu Sans, Arial, sans-serif" font-size="24" font-weight="400" text-anchor="start">from the Java source files.</text>
+<path d="M 526 280 L 574 280" fill="none" stroke="#087F82" stroke-width="3" marker-end="url(#arrow)"/>
+<path d="M 815 389 L 815 401" fill="none" stroke="#087F82" stroke-width="3" marker-end="url(#arrow)"/>
+<path d="M 574 510 L 526 510" fill="none" stroke="#087F82" stroke-width="3" marker-end="url(#arrow)"/>
+<path d="M 285 619 L 285 631" fill="none" stroke="#087F82" stroke-width="3" marker-end="url(#arrow)"/>
+<path d="M 526 740 L 574 740" fill="none" stroke="#087F82" stroke-width="3" marker-end="url(#arrow)"/>
+<path d="M 815 849 L 815 861" fill="none" stroke="#087F82" stroke-width="3" marker-end="url(#arrow)"/>
+<path d="M 574 970 L 526 970" fill="none" stroke="#087F82" stroke-width="3" marker-end="url(#arrow)"/>
+<rect x="48" y="1102" width="1004" height="136" rx="18" fill="#E8F5F3" stroke="#E8F5F3" stroke-width="1.5"/>
+<text x="72" y="1139" fill="#087F82" font-family="DejaVu Sans, Arial, sans-serif" font-size="26" font-weight="700" text-anchor="start">Two account systems</text>
+<text x="72" y="1176" fill="#203B50" font-family="DejaVu Sans, Arial, sans-serif" font-size="24" font-weight="400" text-anchor="start">Database credentials connect Java to MySQL. AquaTrack logins control</text>
+<text x="72" y="1209" fill="#203B50" font-family="DejaVu Sans, Arial, sans-serif" font-size="24" font-weight="400" text-anchor="start">the desktop session. Staff cannot open Reports or Accounts.</text>
+<path d="M 48 1258 H 1052" stroke="#CEDBE4"/>
+<text x="48" y="1286" fill="#4A6173" font-family="DejaVu Sans, Arial, sans-serif" font-size="19" font-weight="400" text-anchor="start">AquaTrack v3  •  Read the README for exact commands and screen instructions</text>
+</svg>

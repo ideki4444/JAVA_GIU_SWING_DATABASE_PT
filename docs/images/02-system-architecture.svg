@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="1300" viewBox="0 0 1100 1300" role="img" aria-labelledby="title desc">
+<title id="title">How the Java application fits together</title>
+<desc id="desc">Main checks database connectivity and opens Swing login. UI panels coordinate user actions. Models carry records, utilities implement reusable rules and formatting, DAOs execute SQL through Database and MySQL Connector/J, and MySQL stores eight tables. UI role restrictions are separate from database privileges.</desc>
+<defs><marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto" markerUnits="userSpaceOnUse"><path d="M 0 0 L 9 5 L 0 10 z" fill="#087F82"/></marker></defs>
+<rect width="1100" height="1300" fill="#F5F8FB"/>
+<rect width="1100" height="145" fill="#11283F"/>
+<text x="48" y="37" fill="#91DBD5" font-family="DejaVu Sans, Arial, sans-serif" font-size="20" font-weight="700" text-anchor="start">AQUATRACK  /  FIELD GUIDE 02</text>
+<text x="48" y="84" fill="#FFFFFF" font-family="DejaVu Sans, Arial, sans-serif" font-size="36" font-weight="700" text-anchor="start">How the Java application fits together</text>
+<text x="48" y="120" fill="#D3E2EC" font-family="DejaVu Sans, Arial, sans-serif" font-size="24" font-weight="400" text-anchor="start">Observed structure and the practical reason for each boundary.</text>
+<rect x="48" y="175" width="1004" height="145" rx="18" fill="#E8F5F3" stroke="#CEDBE4" stroke-width="1.5"/>
+<text x="72" y="219" fill="#11283F" font-family="DejaVu Sans, Arial, sans-serif" font-size="27" font-weight="700" text-anchor="start">1  Entry and sign-in</text>
+<text x="72" y="260" fill="#203B50" font-family="DejaVu Sans, Arial, sans-serif" font-size="24" font-weight="400" text-anchor="start">Main → database connectivity check → LoginFrame → MainFrame.</text>
+<text x="72" y="291" fill="#203B50" font-family="DejaVu Sans, Arial, sans-serif" font-size="24" font-weight="400" text-anchor="start">Swing screens run on the event dispatch thread (EDT).</text>
+<path d="M 550 325 L 550 348" fill="none" stroke="#087F82" stroke-width="3" marker-end="url(#arrow)"/>
+<rect x="48" y="355" width="1004" height="170" rx="18" fill="#FFFFFF" stroke="#CEDBE4" stroke-width="1.5"/>
+<text x="72" y="399" fill="#11283F" font-family="DejaVu Sans, Arial, sans-serif" font-size="27" font-weight="700" text-anchor="start">2  UI: forms, navigation and feedback</text>
+<text x="72" y="440" fill="#203B50" font-family="DejaVu Sans, Arial, sans-serif" font-size="24" font-weight="400" text-anchor="start">Dashboard • New Order • Deliveries • Containers &amp; Balances</text>
+<text x="72" y="471" fill="#203B50" font-family="DejaVu Sans, Arial, sans-serif" font-size="24" font-weight="400" text-anchor="start">Customers • Products &amp; Prices • Inventory • Reports • Accounts</text>
+<text x="72" y="502" fill="#203B50" font-family="DejaVu Sans, Arial, sans-serif" font-size="24" font-weight="400" text-anchor="start">Why: each screen groups the controls for one operator task.</text>
+<path d="M 300 531 L 300 554" fill="none" stroke="#087F82" stroke-width="3" marker-end="url(#arrow)"/>
+<path d="M 800 531 L 800 554" fill="none" stroke="#087F82" stroke-width="3" marker-end="url(#arrow)"/>
+<rect x="48" y="560" width="484" height="200" rx="18" fill="#FFFFFF" stroke="#CEDBE4" stroke-width="1.5"/>
+<text x="72" y="604" fill="#11283F" font-family="DejaVu Sans, Arial, sans-serif" font-size="27" font-weight="700" text-anchor="start">model/ and util/</text>
+<text x="72" y="645" fill="#203B50" font-family="DejaVu Sans, Arial, sans-serif" font-size="24" font-weight="400" text-anchor="start">Models carry typed records.</text>
+<text x="72" y="676" fill="#203B50" font-family="DejaVu Sans, Arial, sans-serif" font-size="24" font-weight="400" text-anchor="start">Rules, validation, money, passwords,</text>
+<text x="72" y="707" fill="#203B50" font-family="DejaVu Sans, Arial, sans-serif" font-size="24" font-weight="400" text-anchor="start">session and receipts are reusable.</text>
+<text x="72" y="738" fill="#203B50" font-family="DejaVu Sans, Arial, sans-serif" font-size="24" font-weight="400" text-anchor="start">Why: avoid repeating shared logic.</text>
+<rect x="568" y="560" width="484" height="200" rx="18" fill="#FFFFFF" stroke="#CEDBE4" stroke-width="1.5"/>
+<text x="592" y="604" fill="#11283F" font-family="DejaVu Sans, Arial, sans-serif" font-size="27" font-weight="700" text-anchor="start">dao/</text>
+<text x="592" y="645" fill="#203B50" font-family="DejaVu Sans, Arial, sans-serif" font-size="24" font-weight="400" text-anchor="start">User, Customer, Product, Order,</text>
+<text x="592" y="676" fill="#203B50" font-family="DejaVu Sans, Arial, sans-serif" font-size="24" font-weight="400" text-anchor="start">DeliveryStaff, Ledger, Report DAOs.</text>
+<text x="592" y="707" fill="#203B50" font-family="DejaVu Sans, Arial, sans-serif" font-size="24" font-weight="400" text-anchor="start">SQL and transaction boundaries.</text>
+<text x="592" y="738" fill="#203B50" font-family="DejaVu Sans, Arial, sans-serif" font-size="24" font-weight="400" text-anchor="start">Why: keep queries out of forms.</text>
+<path d="M 810 766 L 810 789" fill="none" stroke="#087F82" stroke-width="3" marker-end="url(#arrow)"/>
+<rect x="48" y="795" width="1004" height="145" rx="18" fill="#FFFFFF" stroke="#CEDBE4" stroke-width="1.5"/>
+<text x="72" y="839" fill="#11283F" font-family="DejaVu Sans, Arial, sans-serif" font-size="27" font-weight="700" text-anchor="start">3  db/Database + MySQL Connector/J</text>
+<text x="72" y="880" fill="#203B50" font-family="DejaVu Sans, Arial, sans-serif" font-size="24" font-weight="400" text-anchor="start">Database opens JDBC connections; DAOs use prepared statements.</text>
+<text x="72" y="911" fill="#203B50" font-family="DejaVu Sans, Arial, sans-serif" font-size="24" font-weight="400" text-anchor="start">Why: share connection setup and bind data separately from SQL.</text>
+<path d="M 550 946 L 550 969" fill="none" stroke="#087F82" stroke-width="3" marker-end="url(#arrow)"/>
+<rect x="48" y="975" width="1004" height="145" rx="18" fill="#E8F5F3" stroke="#CEDBE4" stroke-width="1.5"/>
+<text x="72" y="1019" fill="#11283F" font-family="DejaVu Sans, Arial, sans-serif" font-size="27" font-weight="700" text-anchor="start">4  MySQL / MariaDB: eight InnoDB tables</text>
+<text x="72" y="1060" fill="#203B50" font-family="DejaVu Sans, Arial, sans-serif" font-size="24" font-weight="400" text-anchor="start">users • customers • products • delivery_staff • orders • order_items</text>
+<text x="72" y="1091" fill="#203B50" font-family="DejaVu Sans, Arial, sans-serif" font-size="24" font-weight="400" text-anchor="start">payments • container_ledger — durable records and foreign keys.</text>
+<rect x="48" y="1140" width="1004" height="88" rx="18" fill="#FFF2D8" stroke="#FFF2D8" stroke-width="1.5"/>
+<text x="72" y="1177" fill="#B67913" font-family="DejaVu Sans, Arial, sans-serif" font-size="26" font-weight="700" text-anchor="start">Deployment boundary</text>
+<text x="72" y="1214" fill="#203B50" font-family="DejaVu Sans, Arial, sans-serif" font-size="24" font-weight="400" text-anchor="start">This is a desktop JDBC system. UI roles do not replace database privileges.</text>
+<path d="M 48 1248 H 1052" stroke="#CEDBE4"/>
+<text x="48" y="1276" fill="#4A6173" font-family="DejaVu Sans, Arial, sans-serif" font-size="19" font-weight="400" text-anchor="start">AquaTrack v3  •  Read the README for exact commands and screen instructions</text>
+</svg>

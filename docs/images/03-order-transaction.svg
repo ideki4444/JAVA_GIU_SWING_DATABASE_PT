@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="1330" viewBox="0 0 1100 1330" role="img" aria-labelledby="title desc">
+<title id="title">What happens when an order is saved</title>
+<desc id="desc">The order transaction locks the active customer, locks and rereads product rows, checks availability and stock, reprices and deducts tracked stock, validates container returns, inserts order/items/ledger entries and commits. Any SQL or runtime failure rolls back the whole sale. Changed prices roll back and require review. Receipt loading occurs after commit and cannot undo the saved sale.</desc>
+<defs><marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto" markerUnits="userSpaceOnUse"><path d="M 0 0 L 9 5 L 0 10 z" fill="#087F82"/></marker></defs>
+<rect width="1100" height="1330" fill="#F5F8FB"/>
+<rect width="1100" height="145" fill="#11283F"/>
+<text x="48" y="37" fill="#91DBD5" font-family="DejaVu Sans, Arial, sans-serif" font-size="20" font-weight="700" text-anchor="start">AQUATRACK  /  FIELD GUIDE 03</text>
+<text x="48" y="84" fill="#FFFFFF" font-family="DejaVu Sans, Arial, sans-serif" font-size="36" font-weight="700" text-anchor="start">What happens when an order is saved</text>
+<text x="48" y="120" fill="#D3E2EC" font-family="DejaVu Sans, Arial, sans-serif" font-size="24" font-weight="400" text-anchor="start">OrderDao.placeOrder: one sale, one transaction, one receipt reference.</text>
+<rect x="48" y="175" width="1004" height="116" rx="18" fill="#FFFFFF" stroke="#CEDBE4" stroke-width="1.5"/>
+<rect x="66" y="193" width="146" height="80" rx="12" fill="#087F82" stroke="#087F82" stroke-width="1.5"/>
+<text x="139" y="241" fill="#FFFFFF" font-family="DejaVu Sans, Arial, sans-serif" font-size="24" font-weight="700" text-anchor="middle">BEGIN</text>
+<text x="236" y="219" fill="#203B50" font-family="DejaVu Sans, Arial, sans-serif" font-size="24" font-weight="400" text-anchor="start">Open connection; setAutoCommit(false).</text>
+<text x="236" y="255" fill="#203B50" font-family="DejaVu Sans, Arial, sans-serif" font-size="24" font-weight="400" text-anchor="start">Reject an empty draft before starting.</text>
+<path d="M 550 294 L 550 306" fill="none" stroke="#087F82" stroke-width="3" marker-end="url(#arrow)"/>
+<rect x="48" y="310" width="1004" height="116" rx="18" fill="#FFFFFF" stroke="#CEDBE4" stroke-width="1.5"/>
+<rect x="66" y="328" width="146" height="80" rx="12" fill="#087F82" stroke="#087F82" stroke-width="1.5"/>
+<text x="139" y="376" fill="#FFFFFF" font-family="DejaVu Sans, Arial, sans-serif" font-size="24" font-weight="700" text-anchor="middle">LOCK</text>
+<text x="236" y="354" fill="#203B50" font-family="DejaVu Sans, Arial, sans-serif" font-size="24" font-weight="400" text-anchor="start">Lock the active customer with SELECT … FOR UPDATE.</text>
+<text x="236" y="390" fill="#203B50" font-family="DejaVu Sans, Arial, sans-serif" font-size="24" font-weight="400" text-anchor="start">This serializes order gallon checks for that customer.</text>
+<path d="M 550 429 L 550 441" fill="none" stroke="#087F82" stroke-width="3" marker-end="url(#arrow)"/>
+<rect x="48" y="445" width="1004" height="116" rx="18" fill="#FFFFFF" stroke="#CEDBE4" stroke-width="1.5"/>
+<rect x="66" y="463" width="146" height="80" rx="12" fill="#087F82" stroke="#087F82" stroke-width="1.5"/>
+<text x="139" y="511" fill="#FFFFFF" font-family="DejaVu Sans, Arial, sans-serif" font-size="24" font-weight="700" text-anchor="middle">RECHECK</text>
+<text x="236" y="489" fill="#203B50" font-family="DejaVu Sans, Arial, sans-serif" font-size="24" font-weight="400" text-anchor="start">Lock each product; reread active flag, price and stock.</text>
+<text x="236" y="525" fill="#203B50" font-family="DejaVu Sans, Arial, sans-serif" font-size="24" font-weight="400" text-anchor="start">Deduct Container / Cap/Seal stock; Refill is untracked.</text>
+<path d="M 550 564 L 550 576" fill="none" stroke="#087F82" stroke-width="3" marker-end="url(#arrow)"/>
+<rect x="48" y="580" width="1004" height="116" rx="18" fill="#FFFFFF" stroke="#CEDBE4" stroke-width="1.5"/>
+<rect x="66" y="598" width="146" height="80" rx="12" fill="#087F82" stroke="#087F82" stroke-width="1.5"/>
+<text x="139" y="646" fill="#FFFFFF" font-family="DejaVu Sans, Arial, sans-serif" font-size="24" font-weight="700" text-anchor="middle">VALIDATE</text>
+<text x="236" y="624" fill="#203B50" font-family="DejaVu Sans, Arial, sans-serif" font-size="24" font-weight="400" text-anchor="start">A changed price aborts this save for operator review.</text>
+<text x="236" y="660" fill="#203B50" font-family="DejaVu Sans, Arial, sans-serif" font-size="24" font-weight="400" text-anchor="start">Returned ≤ previous gallons out + borrowed now.</text>
+<path d="M 550 699 L 550 711" fill="none" stroke="#087F82" stroke-width="3" marker-end="url(#arrow)"/>
+<rect x="48" y="715" width="1004" height="116" rx="18" fill="#FFFFFF" stroke="#CEDBE4" stroke-width="1.5"/>
+<rect x="66" y="733" width="146" height="80" rx="12" fill="#087F82" stroke="#087F82" stroke-width="1.5"/>
+<text x="139" y="781" fill="#FFFFFF" font-family="DejaVu Sans, Arial, sans-serif" font-size="24" font-weight="700" text-anchor="middle">WRITE</text>
+<text x="236" y="759" fill="#203B50" font-family="DejaVu Sans, Arial, sans-serif" font-size="24" font-weight="400" text-anchor="start">Insert orders, order_items and nonzero gallon movements.</text>
+<text x="236" y="795" fill="#203B50" font-family="DejaVu Sans, Arial, sans-serif" font-size="24" font-weight="400" text-anchor="start">Store unit prices and line totals with the saved sale.</text>
+<path d="M 550 834 L 550 846" fill="none" stroke="#087F82" stroke-width="3" marker-end="url(#arrow)"/>
+<rect x="48" y="850" width="1004" height="116" rx="18" fill="#E8F5F3" stroke="#CEDBE4" stroke-width="1.5"/>
+<rect x="66" y="868" width="146" height="80" rx="12" fill="#087F82" stroke="#087F82" stroke-width="1.5"/>
+<text x="139" y="916" fill="#FFFFFF" font-family="DejaVu Sans, Arial, sans-serif" font-size="24" font-weight="700" text-anchor="middle">COMMIT</text>
+<text x="236" y="894" fill="#203B50" font-family="DejaVu Sans, Arial, sans-serif" font-size="24" font-weight="400" text-anchor="start">Commit all sale changes together; return the order ID.</text>
+<text x="236" y="930" fill="#203B50" font-family="DejaVu Sans, Arial, sans-serif" font-size="24" font-weight="400" text-anchor="start">Walk-in starts Delivered; Delivery starts Pending.</text>
+<rect x="48" y="990" width="484" height="192" rx="18" fill="#FFF2D8" stroke="#CEDBE4" stroke-width="1.5"/>
+<text x="72" y="1034" fill="#11283F" font-family="DejaVu Sans, Arial, sans-serif" font-size="27" font-weight="700" text-anchor="start">If a step fails</text>
+<text x="72" y="1075" fill="#203B50" font-family="DejaVu Sans, Arial, sans-serif" font-size="24" font-weight="400" text-anchor="start">SQL / runtime error → rollback.</text>
+<text x="72" y="1106" fill="#203B50" font-family="DejaVu Sans, Arial, sans-serif" font-size="24" font-weight="400" text-anchor="start">No partial sale or stock deduction.</text>
+<text x="72" y="1137" fill="#203B50" font-family="DejaVu Sans, Arial, sans-serif" font-size="24" font-weight="400" text-anchor="start">Price change → review new total,</text>
+<text x="72" y="1168" fill="#203B50" font-family="DejaVu Sans, Arial, sans-serif" font-size="24" font-weight="400" text-anchor="start">then explicitly save again.</text>
+<rect x="568" y="990" width="484" height="192" rx="18" fill="#E8F5F3" stroke="#CEDBE4" stroke-width="1.5"/>
+<text x="592" y="1034" fill="#11283F" font-family="DejaVu Sans, Arial, sans-serif" font-size="27" font-weight="700" text-anchor="start">After commit: receipt</text>
+<text x="592" y="1075" fill="#203B50" font-family="DejaVu Sans, Arial, sans-serif" font-size="24" font-weight="400" text-anchor="start">Reload the saved order by ID.</text>
+<text x="592" y="1106" fill="#203B50" font-family="DejaVu Sans, Arial, sans-serif" font-size="24" font-weight="400" text-anchor="start">Print through the system dialog.</text>
+<text x="592" y="1137" fill="#203B50" font-family="DejaVu Sans, Arial, sans-serif" font-size="24" font-weight="400" text-anchor="start">Receipt failure: retry that ID;</text>
+<text x="592" y="1168" fill="#203B50" font-family="DejaVu Sans, Arial, sans-serif" font-size="24" font-weight="400" text-anchor="start">do not enter the sale again.</text>
+<text x="48" y="1222" fill="#4A6173" font-family="DejaVu Sans, Arial, sans-serif" font-size="24" font-weight="400" text-anchor="start">Scope: standalone payments and returns do not share this transaction.</text>
+<path d="M 48 1278 H 1052" stroke="#CEDBE4"/>
+<text x="48" y="1306" fill="#4A6173" font-family="DejaVu Sans, Arial, sans-serif" font-size="19" font-weight="400" text-anchor="start">AquaTrack v3  •  Read the README for exact commands and screen instructions</text>
+</svg>
