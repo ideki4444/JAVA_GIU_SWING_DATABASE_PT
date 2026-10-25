@@ -46,3 +46,8 @@ htmlcov/
 # System files
 .DS_Store
 Thumbs.db
+
+# Local data and documentation environment
+backups/
+.venv-docs/
+aquatrack-portable.sql

@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="1320" viewBox="0 0 1100 1320" role="img" aria-labelledby="title desc">
+<title id="title">Start here. Run a complete working day.</title>
+<desc id="desc">JDK 25+ • Desktop • MySQL / MariaDB: Build Aquatrack3-gpt-claude_1 from source. Configure the JDBC URL, database user and password. Properties override environment variables, then defaults.; New database → schema → first owner: Import schema.sql into an empty selected database. Generate a PBKDF2 password hash; bootstrap one owner. App logins and database credentials are separate.; Products → Stock → Customers → Riders: Owner sets pickup and delivery refill prices. Receive stock for containers and caps/seals. Create individual Staff / Owner/Admin login accounts.; Sell → Deliver → Collect → Reconcile: Save each sale once, then preview / print its receipt. Record credit collections and gallon returns separately. Review sales, unpaid balances and stock; back up MySQL.</desc>
+<rect width="1100" height="1320" fill="#f1f6f8"/>
+<rect width="1100" height="170" fill="#102f43"/>
+<text x="45" y="45" font-family="DejaVu Sans, sans-serif" font-size="22" font-weight="700" fill="#8ce0d5">AQUATRACK3-GPT-CLAUDE_1  /  FIELD GUIDE</text>
+<text x="45" y="100" font-family="DejaVu Sans, sans-serif" font-size="34" font-weight="700" fill="#ffffff">Start here. Run a complete working day.</text>
+<text x="45" y="140" font-family="DejaVu Sans, sans-serif" font-size="22" font-weight="400" fill="#d2e4ed">Source-based instructions • Open the SVG to zoom • Read the full README</text>
+<rect x="40" y="200" width="1020" height="230" rx="18" fill="white" stroke="#cadde2"/>
+<text x="65" y="239" font-family="DejaVu Sans, sans-serif" font-size="23" font-weight="700" fill="#087e82">01  PREPARE</text>
+<text x="65" y="282" font-family="DejaVu Sans, sans-serif" font-size="28" font-weight="700" fill="#14374a">JDK 25+ • Desktop • MySQL / MariaDB</text>
+<text x="65" y="325" font-family="DejaVu Sans, sans-serif" font-size="25" font-weight="400" fill="#203e50">Build Aquatrack3-gpt-claude_1 from source.</text>
+<text x="65" y="360" font-family="DejaVu Sans, sans-serif" font-size="25" font-weight="400" fill="#203e50">Configure the JDBC URL, database user and password.</text>
+<text x="65" y="395" font-family="DejaVu Sans, sans-serif" font-size="25" font-weight="400" fill="#203e50">Properties override environment variables, then defaults.</text>
+<text x="532" y="453" font-family="DejaVu Sans, sans-serif" font-size="28" font-weight="700" fill="#087e82">↓</text>
+<rect x="40" y="460" width="1020" height="230" rx="18" fill="white" stroke="#cadde2"/>
+<text x="65" y="499" font-family="DejaVu Sans, sans-serif" font-size="23" font-weight="700" fill="#087e82">02  INITIALIZE</text>
+<text x="65" y="542" font-family="DejaVu Sans, sans-serif" font-size="28" font-weight="700" fill="#14374a">New database → schema → first owner</text>
+<text x="65" y="585" font-family="DejaVu Sans, sans-serif" font-size="25" font-weight="400" fill="#203e50">Import schema.sql into an empty selected database.</text>
+<text x="65" y="620" font-family="DejaVu Sans, sans-serif" font-size="25" font-weight="400" fill="#203e50">Generate a PBKDF2 password hash; bootstrap one owner.</text>
+<text x="65" y="655" font-family="DejaVu Sans, sans-serif" font-size="25" font-weight="400" fill="#203e50">App logins and database credentials are separate.</text>
+<text x="532" y="713" font-family="DejaVu Sans, sans-serif" font-size="28" font-weight="700" fill="#087e82">↓</text>
+<rect x="40" y="720" width="1020" height="230" rx="18" fill="white" stroke="#cadde2"/>
+<text x="65" y="759" font-family="DejaVu Sans, sans-serif" font-size="23" font-weight="700" fill="#087e82">03  SET UP THE STATION</text>
+<text x="65" y="802" font-family="DejaVu Sans, sans-serif" font-size="28" font-weight="700" fill="#14374a">Products → Stock → Customers → Riders</text>
+<text x="65" y="845" font-family="DejaVu Sans, sans-serif" font-size="25" font-weight="400" fill="#203e50">Owner sets pickup and delivery refill prices.</text>
+<text x="65" y="880" font-family="DejaVu Sans, sans-serif" font-size="25" font-weight="400" fill="#203e50">Receive stock for containers and caps/seals.</text>
+<text x="65" y="915" font-family="DejaVu Sans, sans-serif" font-size="25" font-weight="400" fill="#203e50">Create individual Staff / Owner/Admin login accounts.</text>
+<text x="532" y="973" font-family="DejaVu Sans, sans-serif" font-size="28" font-weight="700" fill="#087e82">↓</text>
+<rect x="40" y="980" width="1020" height="230" rx="18" fill="white" stroke="#cadde2"/>
+<text x="65" y="1019" font-family="DejaVu Sans, sans-serif" font-size="23" font-weight="700" fill="#087e82">04  OPERATE AND REVIEW</text>
+<text x="65" y="1062" font-family="DejaVu Sans, sans-serif" font-size="28" font-weight="700" fill="#14374a">Sell → Deliver → Collect → Reconcile</text>
+<text x="65" y="1105" font-family="DejaVu Sans, sans-serif" font-size="25" font-weight="400" fill="#203e50">Save each sale once, then preview / print its receipt.</text>
+<text x="65" y="1140" font-family="DejaVu Sans, sans-serif" font-size="25" font-weight="400" fill="#203e50">Record credit collections and gallon returns separately.</text>
+<text x="65" y="1175" font-family="DejaVu Sans, sans-serif" font-size="25" font-weight="400" fill="#203e50">Review sales, unpaid balances and stock; back up MySQL.</text>
+<text x="45" y="1280" font-family="DejaVu Sans, sans-serif" font-size="21" font-weight="400" fill="#486b79">Java Swing • JDBC • MySQL   |   Source: uploaded Aquatrack3-gpt-claude_1</text>
+</svg>

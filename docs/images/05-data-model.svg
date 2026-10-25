@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="1320" viewBox="0 0 1100 1320" role="img" aria-labelledby="title desc">
+<title id="title">Eight tables explain the station.</title>
+<desc id="desc">users • customers • products • delivery_staff: Users sign in; riders are separate operational records. Products store unit_price, delivery_price, stock and status. Customer records carry contact/address and archive state.; orders → order_items → products: An order references customer, creator and optional rider. Items retain quantity, saved unit price and line amount. Customer/product descriptions are read from current rows.; customers → payments / container_ledger: Payments reduce customer-level debt; no invoice allocation. Ledger counts Borrowed / Returned; optional order link. Timestamps are paid_at and moved_at respectively.; Keys connect records; calculations give balances: Unique username, product name and customer name/contact. Order-item parent deletion cascades; archive used records. Schema constraints do not recompute all aggregate totals.</desc>
+<rect width="1100" height="1320" fill="#f1f6f8"/>
+<rect width="1100" height="170" fill="#102f43"/>
+<text x="45" y="45" font-family="DejaVu Sans, sans-serif" font-size="22" font-weight="700" fill="#8ce0d5">AQUATRACK3-GPT-CLAUDE_1  /  FIELD GUIDE</text>
+<text x="45" y="100" font-family="DejaVu Sans, sans-serif" font-size="34" font-weight="700" fill="#ffffff">Eight tables explain the station.</text>
+<text x="45" y="140" font-family="DejaVu Sans, sans-serif" font-size="22" font-weight="400" fill="#d2e4ed">Source-based instructions • Open the SVG to zoom • Read the full README</text>
+<rect x="40" y="200" width="1020" height="230" rx="18" fill="white" stroke="#cadde2"/>
+<text x="65" y="239" font-family="DejaVu Sans, sans-serif" font-size="23" font-weight="700" fill="#087e82">01  IDENTITIES / CATALOG</text>
+<text x="65" y="282" font-family="DejaVu Sans, sans-serif" font-size="28" font-weight="700" fill="#14374a">users • customers • products • delivery_staff</text>
+<text x="65" y="325" font-family="DejaVu Sans, sans-serif" font-size="25" font-weight="400" fill="#203e50">Users sign in; riders are separate operational records.</text>
+<text x="65" y="360" font-family="DejaVu Sans, sans-serif" font-size="25" font-weight="400" fill="#203e50">Products store unit_price, delivery_price, stock and status.</text>
+<text x="65" y="395" font-family="DejaVu Sans, sans-serif" font-size="25" font-weight="400" fill="#203e50">Customer records carry contact/address and archive state.</text>
+<text x="532" y="453" font-family="DejaVu Sans, sans-serif" font-size="28" font-weight="700" fill="#087e82">↓</text>
+<rect x="40" y="460" width="1020" height="230" rx="18" fill="white" stroke="#cadde2"/>
+<text x="65" y="499" font-family="DejaVu Sans, sans-serif" font-size="23" font-weight="700" fill="#087e82">02  SALES</text>
+<text x="65" y="542" font-family="DejaVu Sans, sans-serif" font-size="28" font-weight="700" fill="#14374a">orders → order_items → products</text>
+<text x="65" y="585" font-family="DejaVu Sans, sans-serif" font-size="25" font-weight="400" fill="#203e50">An order references customer, creator and optional rider.</text>
+<text x="65" y="620" font-family="DejaVu Sans, sans-serif" font-size="25" font-weight="400" fill="#203e50">Items retain quantity, saved unit price and line amount.</text>
+<text x="65" y="655" font-family="DejaVu Sans, sans-serif" font-size="25" font-weight="400" fill="#203e50">Customer/product descriptions are read from current rows.</text>
+<text x="532" y="713" font-family="DejaVu Sans, sans-serif" font-size="28" font-weight="700" fill="#087e82">↓</text>
+<rect x="40" y="720" width="1020" height="230" rx="18" fill="white" stroke="#cadde2"/>
+<text x="65" y="759" font-family="DejaVu Sans, sans-serif" font-size="23" font-weight="700" fill="#087e82">03  LATER ACTIVITY</text>
+<text x="65" y="802" font-family="DejaVu Sans, sans-serif" font-size="28" font-weight="700" fill="#14374a">customers → payments / container_ledger</text>
+<text x="65" y="845" font-family="DejaVu Sans, sans-serif" font-size="25" font-weight="400" fill="#203e50">Payments reduce customer-level debt; no invoice allocation.</text>
+<text x="65" y="880" font-family="DejaVu Sans, sans-serif" font-size="25" font-weight="400" fill="#203e50">Ledger counts Borrowed / Returned; optional order link.</text>
+<text x="65" y="915" font-family="DejaVu Sans, sans-serif" font-size="25" font-weight="400" fill="#203e50">Timestamps are paid_at and moved_at respectively.</text>
+<text x="532" y="973" font-family="DejaVu Sans, sans-serif" font-size="28" font-weight="700" fill="#087e82">↓</text>
+<rect x="40" y="980" width="1020" height="230" rx="18" fill="white" stroke="#cadde2"/>
+<text x="65" y="1019" font-family="DejaVu Sans, sans-serif" font-size="23" font-weight="700" fill="#087e82">04  RELATIONSHIPS / LIMITS</text>
+<text x="65" y="1062" font-family="DejaVu Sans, sans-serif" font-size="28" font-weight="700" fill="#14374a">Keys connect records; calculations give balances</text>
+<text x="65" y="1105" font-family="DejaVu Sans, sans-serif" font-size="25" font-weight="400" fill="#203e50">Unique username, product name and customer name/contact.</text>
+<text x="65" y="1140" font-family="DejaVu Sans, sans-serif" font-size="25" font-weight="400" fill="#203e50">Order-item parent deletion cascades; archive used records.</text>
+<text x="65" y="1175" font-family="DejaVu Sans, sans-serif" font-size="25" font-weight="400" fill="#203e50">Schema constraints do not recompute all aggregate totals.</text>
+<text x="45" y="1280" font-family="DejaVu Sans, sans-serif" font-size="21" font-weight="400" fill="#486b79">Java Swing • JDBC • MySQL   |   Source: uploaded Aquatrack3-gpt-claude_1</text>
+</svg>

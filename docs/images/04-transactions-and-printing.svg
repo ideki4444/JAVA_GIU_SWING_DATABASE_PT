@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="1320" viewBox="0 0 1100 1320" role="img" aria-labelledby="title desc">
+<title id="title">Save first. Print the committed result.</title>
+<desc id="desc">Lock customer → lock products → recheck: Read current activity, stock and fulfillment-specific prices. Changed price: roll back, show new total, require review. Write order, lines, stock and loan movements; commit.; Lock customer → recalculate → write → commit: Reject overpayment or returns above current gallons out. PaymentResult acknowledges the committed reference. A later refresh failure does not mean payment failed.; 80 mm roll • fitted length • wrapped details: The sale commits before receipt loading or printing. Zoom / Print / Close; no orientation or page navigation. Retry the saved receipt ID rather than creating a sale again.; A4 • portrait / landscape • page navigation: Preview and print share a captured document snapshot. Canceling print changes no business transaction. Printer drivers and actual paper handling need local tests.</desc>
+<rect width="1100" height="1320" fill="#f1f6f8"/>
+<rect width="1100" height="170" fill="#102f43"/>
+<text x="45" y="45" font-family="DejaVu Sans, sans-serif" font-size="22" font-weight="700" fill="#8ce0d5">AQUATRACK3-GPT-CLAUDE_1  /  FIELD GUIDE</text>
+<text x="45" y="100" font-family="DejaVu Sans, sans-serif" font-size="34" font-weight="700" fill="#ffffff">Save first. Print the committed result.</text>
+<text x="45" y="140" font-family="DejaVu Sans, sans-serif" font-size="22" font-weight="400" fill="#d2e4ed">Source-based instructions • Open the SVG to zoom • Read the full README</text>
+<rect x="40" y="200" width="1020" height="230" rx="18" fill="white" stroke="#cadde2"/>
+<text x="65" y="239" font-family="DejaVu Sans, sans-serif" font-size="23" font-weight="700" fill="#087e82">01  ORDER TRANSACTION</text>
+<text x="65" y="282" font-family="DejaVu Sans, sans-serif" font-size="28" font-weight="700" fill="#14374a">Lock customer → lock products → recheck</text>
+<text x="65" y="325" font-family="DejaVu Sans, sans-serif" font-size="25" font-weight="400" fill="#203e50">Read current activity, stock and fulfillment-specific prices.</text>
+<text x="65" y="360" font-family="DejaVu Sans, sans-serif" font-size="25" font-weight="400" fill="#203e50">Changed price: roll back, show new total, require review.</text>
+<text x="65" y="395" font-family="DejaVu Sans, sans-serif" font-size="25" font-weight="400" fill="#203e50">Write order, lines, stock and loan movements; commit.</text>
+<text x="532" y="453" font-family="DejaVu Sans, sans-serif" font-size="28" font-weight="700" fill="#087e82">↓</text>
+<rect x="40" y="460" width="1020" height="230" rx="18" fill="white" stroke="#cadde2"/>
+<text x="65" y="499" font-family="DejaVu Sans, sans-serif" font-size="23" font-weight="700" fill="#087e82">02  PAYMENT / RETURN</text>
+<text x="65" y="542" font-family="DejaVu Sans, sans-serif" font-size="28" font-weight="700" fill="#14374a">Lock customer → recalculate → write → commit</text>
+<text x="65" y="585" font-family="DejaVu Sans, sans-serif" font-size="25" font-weight="400" fill="#203e50">Reject overpayment or returns above current gallons out.</text>
+<text x="65" y="620" font-family="DejaVu Sans, sans-serif" font-size="25" font-weight="400" fill="#203e50">PaymentResult acknowledges the committed reference.</text>
+<text x="65" y="655" font-family="DejaVu Sans, sans-serif" font-size="25" font-weight="400" fill="#203e50">A later refresh failure does not mean payment failed.</text>
+<text x="532" y="713" font-family="DejaVu Sans, sans-serif" font-size="28" font-weight="700" fill="#087e82">↓</text>
+<rect x="40" y="720" width="1020" height="230" rx="18" fill="white" stroke="#cadde2"/>
+<text x="65" y="759" font-family="DejaVu Sans, sans-serif" font-size="23" font-weight="700" fill="#087e82">03  RECEIPT PREVIEW</text>
+<text x="65" y="802" font-family="DejaVu Sans, sans-serif" font-size="28" font-weight="700" fill="#14374a">80 mm roll • fitted length • wrapped details</text>
+<text x="65" y="845" font-family="DejaVu Sans, sans-serif" font-size="25" font-weight="400" fill="#203e50">The sale commits before receipt loading or printing.</text>
+<text x="65" y="880" font-family="DejaVu Sans, sans-serif" font-size="25" font-weight="400" fill="#203e50">Zoom / Print / Close; no orientation or page navigation.</text>
+<text x="65" y="915" font-family="DejaVu Sans, sans-serif" font-size="25" font-weight="400" fill="#203e50">Retry the saved receipt ID rather than creating a sale again.</text>
+<text x="532" y="973" font-family="DejaVu Sans, sans-serif" font-size="28" font-weight="700" fill="#087e82">↓</text>
+<rect x="40" y="980" width="1020" height="230" rx="18" fill="white" stroke="#cadde2"/>
+<text x="65" y="1019" font-family="DejaVu Sans, sans-serif" font-size="23" font-weight="700" fill="#087e82">04  REPORT PREVIEW</text>
+<text x="65" y="1062" font-family="DejaVu Sans, sans-serif" font-size="28" font-weight="700" fill="#14374a">A4 • portrait / landscape • page navigation</text>
+<text x="65" y="1105" font-family="DejaVu Sans, sans-serif" font-size="25" font-weight="400" fill="#203e50">Preview and print share a captured document snapshot.</text>
+<text x="65" y="1140" font-family="DejaVu Sans, sans-serif" font-size="25" font-weight="400" fill="#203e50">Canceling print changes no business transaction.</text>
+<text x="65" y="1175" font-family="DejaVu Sans, sans-serif" font-size="25" font-weight="400" fill="#203e50">Printer drivers and actual paper handling need local tests.</text>
+<text x="45" y="1280" font-family="DejaVu Sans, sans-serif" font-size="21" font-weight="400" fill="#486b79">Java Swing • JDBC • MySQL   |   Source: uploaded Aquatrack3-gpt-claude_1</text>
+</svg>
