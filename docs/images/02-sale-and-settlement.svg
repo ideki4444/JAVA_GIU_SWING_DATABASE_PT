@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="1320" viewBox="0 0 1100 1320" role="img" aria-labelledby="title desc">
+<title id="title">One sale. Four different measures.</title>
+<desc id="desc">2 refills: pickup PHP 25 / delivery PHP 30: Walk-in total: 2 × 25 = PHP 50. Switch to Delivery: 2 × 30 = PHP 60. Accessory products keep one unit price.; PHP 60 owed • 2 gallons borrowed: The delivery begins Pending; stock deducts at save. Refills do not consume tracked stock automatically. Borrowed gallons are loans, not sale charges.; PHP 20 collected • 1 gallon returned: Debt: PHP 60 − PHP 20 = PHP 40. Gallons out: 2 − 1 = 1. The original Credit sales value remains PHP 60.; Pending → Out for Delivery → Delivered: Dispatch requires a rider; collection is a separate action. Current code also permits Pending directly to Delivered. Cash means already paid in full when the sale is saved.</desc>
+<rect width="1100" height="1320" fill="#f1f6f8"/>
+<rect width="1100" height="170" fill="#102f43"/>
+<text x="45" y="45" font-family="DejaVu Sans, sans-serif" font-size="22" font-weight="700" fill="#8ce0d5">AQUATRACK3-GPT-CLAUDE_1  /  FIELD GUIDE</text>
+<text x="45" y="100" font-family="DejaVu Sans, sans-serif" font-size="34" font-weight="700" fill="#ffffff">One sale. Four different measures.</text>
+<text x="45" y="140" font-family="DejaVu Sans, sans-serif" font-size="22" font-weight="400" fill="#d2e4ed">Source-based instructions • Open the SVG to zoom • Read the full README</text>
+<rect x="40" y="200" width="1020" height="230" rx="18" fill="white" stroke="#cadde2"/>
+<text x="65" y="239" font-family="DejaVu Sans, sans-serif" font-size="23" font-weight="700" fill="#087e82">01  PRICE THE DRAFT</text>
+<text x="65" y="282" font-family="DejaVu Sans, sans-serif" font-size="28" font-weight="700" fill="#14374a">2 refills: pickup PHP 25 / delivery PHP 30</text>
+<text x="65" y="325" font-family="DejaVu Sans, sans-serif" font-size="25" font-weight="400" fill="#203e50">Walk-in total: 2 × 25 = PHP 50.</text>
+<text x="65" y="360" font-family="DejaVu Sans, sans-serif" font-size="25" font-weight="400" fill="#203e50">Switch to Delivery: 2 × 30 = PHP 60.</text>
+<text x="65" y="395" font-family="DejaVu Sans, sans-serif" font-size="25" font-weight="400" fill="#203e50">Accessory products keep one unit price.</text>
+<text x="532" y="453" font-family="DejaVu Sans, sans-serif" font-size="28" font-weight="700" fill="#087e82">↓</text>
+<rect x="40" y="460" width="1020" height="230" rx="18" fill="white" stroke="#cadde2"/>
+<text x="65" y="499" font-family="DejaVu Sans, sans-serif" font-size="23" font-weight="700" fill="#087e82">02  SAVE ON CREDIT</text>
+<text x="65" y="542" font-family="DejaVu Sans, sans-serif" font-size="28" font-weight="700" fill="#14374a">PHP 60 owed • 2 gallons borrowed</text>
+<text x="65" y="585" font-family="DejaVu Sans, sans-serif" font-size="25" font-weight="400" fill="#203e50">The delivery begins Pending; stock deducts at save.</text>
+<text x="65" y="620" font-family="DejaVu Sans, sans-serif" font-size="25" font-weight="400" fill="#203e50">Refills do not consume tracked stock automatically.</text>
+<text x="65" y="655" font-family="DejaVu Sans, sans-serif" font-size="25" font-weight="400" fill="#203e50">Borrowed gallons are loans, not sale charges.</text>
+<text x="532" y="713" font-family="DejaVu Sans, sans-serif" font-size="28" font-weight="700" fill="#087e82">↓</text>
+<rect x="40" y="720" width="1020" height="230" rx="18" fill="white" stroke="#cadde2"/>
+<text x="65" y="759" font-family="DejaVu Sans, sans-serif" font-size="23" font-weight="700" fill="#087e82">03  COLLECT AND RETURN</text>
+<text x="65" y="802" font-family="DejaVu Sans, sans-serif" font-size="28" font-weight="700" fill="#14374a">PHP 20 collected • 1 gallon returned</text>
+<text x="65" y="845" font-family="DejaVu Sans, sans-serif" font-size="25" font-weight="400" fill="#203e50">Debt: PHP 60 − PHP 20 = PHP 40.</text>
+<text x="65" y="880" font-family="DejaVu Sans, sans-serif" font-size="25" font-weight="400" fill="#203e50">Gallons out: 2 − 1 = 1.</text>
+<text x="65" y="915" font-family="DejaVu Sans, sans-serif" font-size="25" font-weight="400" fill="#203e50">The original Credit sales value remains PHP 60.</text>
+<text x="532" y="973" font-family="DejaVu Sans, sans-serif" font-size="28" font-weight="700" fill="#087e82">↓</text>
+<rect x="40" y="980" width="1020" height="230" rx="18" fill="white" stroke="#cadde2"/>
+<text x="65" y="1019" font-family="DejaVu Sans, sans-serif" font-size="23" font-weight="700" fill="#087e82">04  COMPLETE DELIVERY</text>
+<text x="65" y="1062" font-family="DejaVu Sans, sans-serif" font-size="28" font-weight="700" fill="#14374a">Pending → Out for Delivery → Delivered</text>
+<text x="65" y="1105" font-family="DejaVu Sans, sans-serif" font-size="25" font-weight="400" fill="#203e50">Dispatch requires a rider; collection is a separate action.</text>
+<text x="65" y="1140" font-family="DejaVu Sans, sans-serif" font-size="25" font-weight="400" fill="#203e50">Current code also permits Pending directly to Delivered.</text>
+<text x="65" y="1175" font-family="DejaVu Sans, sans-serif" font-size="25" font-weight="400" fill="#203e50">Cash means already paid in full when the sale is saved.</text>
+<text x="45" y="1280" font-family="DejaVu Sans, sans-serif" font-size="21" font-weight="400" fill="#486b79">Java Swing • JDBC • MySQL   |   Source: uploaded Aquatrack3-gpt-claude_1</text>
+</svg>

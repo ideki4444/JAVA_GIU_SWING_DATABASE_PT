@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="1320" viewBox="0 0 1100 1320" role="img" aria-labelledby="title desc">
+<title id="title">From a button to durable business records.</title>
+<desc id="desc">MainFrame • LoginPanel • Operational panels: Screens capture input, selection and draft state. UiTask / SwingWorker move database work off the EDT. Busy and leave guards coordinate navigation and writes.; Product • OrderLine • Session • Validator: Models carry named records and saved amounts. BigDecimal computes currency; rules check business input. Session notifications update the signed-in identity.; OrderDao • LedgerDao • UserDao • other DAOs: Prepared statements bind values separately from SQL. Transactions own row locks, validation and commit. Database resolves settings and opens JDBC connections.; Eight InnoDB tables • PrintDocument: MySQL stores related sales, balances and catalog data. PrintDocument shares snapshot layout with preview/print. There is no HTTP server; each desktop uses JDBC.</desc>
+<rect width="1100" height="1320" fill="#f1f6f8"/>
+<rect width="1100" height="170" fill="#102f43"/>
+<text x="45" y="45" font-family="DejaVu Sans, sans-serif" font-size="22" font-weight="700" fill="#8ce0d5">AQUATRACK3-GPT-CLAUDE_1  /  FIELD GUIDE</text>
+<text x="45" y="100" font-family="DejaVu Sans, sans-serif" font-size="34" font-weight="700" fill="#ffffff">From a button to durable business records.</text>
+<text x="45" y="140" font-family="DejaVu Sans, sans-serif" font-size="22" font-weight="400" fill="#d2e4ed">Source-based instructions • Open the SVG to zoom • Read the full README</text>
+<rect x="40" y="200" width="1020" height="230" rx="18" fill="white" stroke="#cadde2"/>
+<text x="65" y="239" font-family="DejaVu Sans, sans-serif" font-size="23" font-weight="700" fill="#087e82">01  WORKSPACE / UI</text>
+<text x="65" y="282" font-family="DejaVu Sans, sans-serif" font-size="28" font-weight="700" fill="#14374a">MainFrame • LoginPanel • Operational panels</text>
+<text x="65" y="325" font-family="DejaVu Sans, sans-serif" font-size="25" font-weight="400" fill="#203e50">Screens capture input, selection and draft state.</text>
+<text x="65" y="360" font-family="DejaVu Sans, sans-serif" font-size="25" font-weight="400" fill="#203e50">UiTask / SwingWorker move database work off the EDT.</text>
+<text x="65" y="395" font-family="DejaVu Sans, sans-serif" font-size="25" font-weight="400" fill="#203e50">Busy and leave guards coordinate navigation and writes.</text>
+<text x="532" y="453" font-family="DejaVu Sans, sans-serif" font-size="28" font-weight="700" fill="#087e82">↓</text>
+<rect x="40" y="460" width="1020" height="230" rx="18" fill="white" stroke="#cadde2"/>
+<text x="65" y="499" font-family="DejaVu Sans, sans-serif" font-size="23" font-weight="700" fill="#087e82">02  MODELS / SHARED RULES</text>
+<text x="65" y="542" font-family="DejaVu Sans, sans-serif" font-size="28" font-weight="700" fill="#14374a">Product • OrderLine • Session • Validator</text>
+<text x="65" y="585" font-family="DejaVu Sans, sans-serif" font-size="25" font-weight="400" fill="#203e50">Models carry named records and saved amounts.</text>
+<text x="65" y="620" font-family="DejaVu Sans, sans-serif" font-size="25" font-weight="400" fill="#203e50">BigDecimal computes currency; rules check business input.</text>
+<text x="65" y="655" font-family="DejaVu Sans, sans-serif" font-size="25" font-weight="400" fill="#203e50">Session notifications update the signed-in identity.</text>
+<text x="532" y="713" font-family="DejaVu Sans, sans-serif" font-size="28" font-weight="700" fill="#087e82">↓</text>
+<rect x="40" y="720" width="1020" height="230" rx="18" fill="white" stroke="#cadde2"/>
+<text x="65" y="759" font-family="DejaVu Sans, sans-serif" font-size="23" font-weight="700" fill="#087e82">03  DATA ACCESS</text>
+<text x="65" y="802" font-family="DejaVu Sans, sans-serif" font-size="28" font-weight="700" fill="#14374a">OrderDao • LedgerDao • UserDao • other DAOs</text>
+<text x="65" y="845" font-family="DejaVu Sans, sans-serif" font-size="25" font-weight="400" fill="#203e50">Prepared statements bind values separately from SQL.</text>
+<text x="65" y="880" font-family="DejaVu Sans, sans-serif" font-size="25" font-weight="400" fill="#203e50">Transactions own row locks, validation and commit.</text>
+<text x="65" y="915" font-family="DejaVu Sans, sans-serif" font-size="25" font-weight="400" fill="#203e50">Database resolves settings and opens JDBC connections.</text>
+<text x="532" y="973" font-family="DejaVu Sans, sans-serif" font-size="28" font-weight="700" fill="#087e82">↓</text>
+<rect x="40" y="980" width="1020" height="230" rx="18" fill="white" stroke="#cadde2"/>
+<text x="65" y="1019" font-family="DejaVu Sans, sans-serif" font-size="23" font-weight="700" fill="#087e82">04  PERSISTENCE / PRINT</text>
+<text x="65" y="1062" font-family="DejaVu Sans, sans-serif" font-size="28" font-weight="700" fill="#14374a">Eight InnoDB tables • PrintDocument</text>
+<text x="65" y="1105" font-family="DejaVu Sans, sans-serif" font-size="25" font-weight="400" fill="#203e50">MySQL stores related sales, balances and catalog data.</text>
+<text x="65" y="1140" font-family="DejaVu Sans, sans-serif" font-size="25" font-weight="400" fill="#203e50">PrintDocument shares snapshot layout with preview/print.</text>
+<text x="65" y="1175" font-family="DejaVu Sans, sans-serif" font-size="25" font-weight="400" fill="#203e50">There is no HTTP server; each desktop uses JDBC.</text>
+<text x="45" y="1280" font-family="DejaVu Sans, sans-serif" font-size="21" font-weight="400" fill="#486b79">Java Swing • JDBC • MySQL   |   Source: uploaded Aquatrack3-gpt-claude_1</text>
+</svg>
